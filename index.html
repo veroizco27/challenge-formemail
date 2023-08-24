@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Sign-up form start -->
+  <div class="flex-container">
+    <div class="container">
+      <h1>Stay updated!</h1>
+      <p>Join 60,000+ product managers receiving monthly<br> updates on:</p>
+      <input type="checkbox" class="checkbox" id="checkbox1">
+      <label for="checkbox1">Checkbox 1</label>
+
+      <input type="checkbox" class="checkbox" id="checkbox2">
+      <label for="checkbox2">Checkbox 2</label>
+      
+      <input type="checkbox" class="checkbox" id="checkbox3">
+      <label for="checkbox3">Checkbox 3</label>
+      <div class="container-contact">
+        <div class="contact-form">
+          <h6>Email address</h6>
+          <form class="form" action="mailto:" method="post">
+            <input type="text" placeholder="email@company.com"></input>
+            <button class="btn-submit">
+              Subscribe to monthly newsletter
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Sign-up form end -->
+
+  <!-- Success message start -->
+  <div class="container-alert"> Thanks for subscribing! A confirmation email has been sent to ash@loremcompany.com.
+    Please open it and click the button inside to confirm your subscription. Dismiss message <!-- Success message end
+    -->
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/veroizco27">Veronica Izquierdo</a>.
+    </div>
+</body>
+
+</html>
